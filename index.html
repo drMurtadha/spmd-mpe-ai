@@ -41,7 +41,7 @@ body {
 
   /* ── TOP BAR ── */
   .topbar {
-    background: var(--surface);
+    background: #ffffff;
     border-bottom: 1px solid var(--border);
     padding: 12px 16px;
     display: flex;
@@ -64,6 +64,38 @@ body {
   .topbar-sub { color: var(--text2); font-size: 12px; font-family: var(--mono); }
   .topbar-time { font-family: var(--mono); font-size: 12px; color: var(--text2); text-align: right; }
 
+  .topbar,
+.nav-tabs {
+  background: #ffffff;
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar-title,
+.section-title,
+.page-header h2,
+.stat-value,
+.recent-name,
+.table-title {
+  color: var(--text);
+}
+
+.topbar-sub,
+.page-header p,
+.stat-label,
+.stat-sub,
+.recent-meta,
+th {
+  color: var(--text2);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea,
+.result-display {
+  background: #ffffff;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
   /* ── NAV TABS ── */
   .nav-tabs {
     background: var(--surface);
